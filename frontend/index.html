@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Social Media</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Social Media</h1>
+  
+  <!-- Form to create new post -->
+  <form>
+    <label for="post-content">Post Content:</label>
+    <textarea id="post-content" name="post-content" required></textarea>
+    <label for="post-image">Post Image:</label>
+    <input type="file" id="post-image" name="post-image" accept=".jpg,.jpeg,.png" required>
+    <button id="create-post-form">Create Post</button>
+  </form>
+  <!-- Feed to display all posts -->
+  <div id="post-feed"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>

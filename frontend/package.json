@@ -1,0 +1,16 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@pinata/sdk": "^2.1.0",
+    "ipfs-http-client": "^60.0.0",
+    "jsdom": "^21.1.1"
+  }
+}
